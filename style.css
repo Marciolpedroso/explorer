@@ -1,0 +1,259 @@
+/*
+  font-family: "Mulish", sans-serif;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    margin-inline: auto;
+}
+
+body {
+    width: 43rem;
+    font-size: 1.6rem;
+    font-family: "Mulish", sans-serif;
+}
+
+.astronaut {
+    text-align: center;
+}
+
+.astro {
+    width: 36.4rem;
+
+}
+
+header h1 {
+    margin-top: 1.7rem;
+    text-align: center;
+    font-weight: 900;
+    color: #B52184;
+}
+
+header h2 {
+    text-align: center;
+    font-weight: 600;
+    color: #312D64;
+}
+
+.arrowbig {
+    margin-top: 3.5rem;
+    text-align: center;
+    margin-bottom: 9.7rem
+}
+
+main {
+    background-color: #312D64;
+    padding-top: 5.2rem;
+    padding-bottom: 0.2rem;
+}
+
+.card1 {
+    margin-left: 3.9rem;
+    background-color: #ffffff;
+    width: 35rem;
+    border-radius: 2rem;
+    padding: 2.6rem 5.9rem 2.6rem 2.6rem; 
+    margin-bottom: 4.9rem;
+}
+
+.card2 {
+    margin-left: 3.9rem;
+    background-color: #ffffff;
+    width: 35rem;
+    border-radius: 2rem;
+    padding: 2.6rem 5.9rem 2.6rem 2.6rem; 
+    margin-bottom: 4.9rem;
+}
+
+.card3 {
+        margin-left: 3.9rem;
+        background-color: #ffffff;
+        width: 35rem;
+        border-radius: 2rem;
+        padding: 2.6rem 5.9rem 2.6rem 2.6rem; 
+        margin-bottom: 4.9rem;
+}
+
+.card1 h1, .card2 h1, .card3 h1{
+    color: #B52184;
+    margin-top: 3.3rem;
+    margin-bottom: 1.9rem;
+    font-weight: 900;
+}
+
+.card1 p, .card2 p, .card3 p {
+    color: #312D64;
+    font-weight: 600;
+}
+
+form {
+    margin-top: 7.6rem;
+    margin-left: 4.6rem;
+}
+
+form h1 {
+    margin-bottom: 4.3rem;
+    color: #B52184 ;
+    font-weight: 900;
+}
+
+.name {
+    display: flex;
+    text-align: left;
+    border: 1px solid #312D64;
+    border-radius: 1.6rem;
+    margin-bottom: 2.6rem;
+    padding: 1.2rem;
+    color: #312D64;
+    width: 34.8rem;
+}
+
+.person, .at {
+    margin-right: 1.2rem;
+}
+
+.mail {
+    display: flex;
+    text-align: center;
+    border: 1px solid #312D64;
+    border-radius: 1.6rem;
+    margin-bottom: 2.6rem;
+    padding: 1.2rem;
+    color: #312D64;
+    width: 34.8rem;
+}
+
+input {
+    border: none;
+    font-weight: 600;
+    color: #312D64;
+    width: 34.8rem;
+}
+
+textarea {
+    width: 32rem;
+    height: 10rem;
+    border: none;
+    font-weight: 600;
+    color: #312D64;
+}
+
+.text {
+    border: 1px solid #312D64;
+    border-radius: 1.6rem;
+    padding: 1.6rem;
+    margin-bottom: 2.4rem;
+    color: #312D64;
+    width: 34.8rem;
+    height: 12.6rem;
+}
+
+button {
+    margin-top: 2.4rem;
+    border-radius: 1.6rem;
+    padding: 1rem 1.6rem 1rem 1.6rem;
+    background-image: linear-gradient(to right, #343193, #302C63);
+    color: #ffffff;
+    margin-bottom: 6.5rem;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.pontos {
+    display: none;
+}
+
+footer {
+    padding: 3.2rem 1.6rem 3.2rem 1.6rem;
+    background-color: #312D64;
+    color: #ffffff;
+    font-size: .9rem;
+    text-align: center;
+    font-weight: 600;
+    font-size: .8rem;
+}
+
+@media (min-width: 1120px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    :root {
+        margin: 0;
+    }
+
+    body {
+        width: 100%;
+    }
+
+    header {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .astronaut {
+        margin-right: 30px;
+        margin-left: 70px;
+    }
+
+    .astro {
+        width: 700px;
+    }
+
+    .titles {
+        margin-left: 110px;
+        margin-top: 312px;
+    }
+
+    .arrowbig {
+        text-align: left;
+        margin-top: 150px;
+    }
+
+    .titles h1 {
+        font-size: 40px;
+        font-weight: 900;
+        margin-bottom: 8px;
+    }
+
+    .titles h2 {
+        text-align: left;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .card {
+        display: grid;
+        grid-template-columns: repeat(3, 28vw);
+        margin-left: 111px;
+    }
+
+    form {
+        margin-top: 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 112px;
+    }
+
+    .pontos {
+        display: block;
+    }
+    
+    .points {
+        width: 100%;
+    }
+
+    .formu {
+        margin-top: 95px;
+    }
+
+}
+
