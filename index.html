@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 
     <title>Explorer sem limites</title>
 </head>
+
 <body>
     <header>
         <div class="astronaut">
@@ -19,55 +22,62 @@
         <div class="titles">
             <h1>Explore sem limites</h1>
             <h2>Porque o aprendizado é contínuo</h2>
-            <div class="arrowbig">
+            <div class="arrowbig" onclick="document.getElementById('card').scrollIntoView({behavior: 'smooth'});">
                 <img src="assets/arrowbig.png" alt="Arrow down">
-            </div>   
+            </div>
         </div>
     </header>
     <main>
-        <div class="card">
-        <div class="card1">
-            <img src="assets/yellow.png" alt="Yellow planet">
-            <h1>Não pare nunca</h1>
-            <p>Se você deseja ter sucesso nos estudos, é fundamental que você adote uma mentalidade de "não pare nunca". Estudar de forma consistente e contínua é a chave para o progresso e a conquista de seus objetivos.</p>
-        </div>
-        <div class="card2">
-            <img src="assets/blue.png" alt="Blue planet">
-            <h1>Só volta</h1>
-            <p>Se você parou ou perdeu o ritmo em alguma atividade ou projeto, saiba que nunca é tarde para recomeçar. Às vezes, as circunstâncias podem mudar, ou podemos nos sentir desmotivados ou sobrecarregados.
-            </p>
-        </div>
-        <div class="card3">
-            <img src="assets/pink.png" alt="Pink planet">
-            <h1>Siga seu ritmo</h1>
-            <p>Avançar pouco a pouco mantém progresso constante em objetivos, evitando parar ou desistir. Mesmo pequenos passos nos aproximam do destino e motivam a continuidade. Não subestime o poder de cada ação rumo ao objetivo final.</p>
-        </div>
+        <div id="card" class="card">
+            <div class="card1">
+                <img src="assets/yellow.png" alt="Yellow planet">
+                <h1>Não pare nunca</h1>
+                <p>Se você deseja ter sucesso nos estudos, é fundamental que você adote uma mentalidade de "não pare
+                    nunca". Estudar de forma consistente e contínua é a chave para o progresso e a conquista de seus
+                    objetivos.</p>
+            </div>
+            <div class="card2">
+                <img src="assets/blue.png" alt="Blue planet">
+                <h1>Só volta</h1>
+                <p>Se você parou ou perdeu o ritmo em alguma atividade ou projeto, saiba que nunca é tarde para
+                    recomeçar. Às vezes, as circunstâncias podem mudar, ou podemos nos sentir desmotivados ou
+                    sobrecarregados.
+                </p>
+            </div>
+            <div class="card3">
+                <img src="assets/pink.png" alt="Pink planet">
+                <h1>Siga seu ritmo</h1>
+                <p>Avançar pouco a pouco mantém progresso constante em objetivos, evitando parar ou desistir. Mesmo
+                    pequenos passos nos aproximam do destino e motivam a continuidade. Não subestime o poder de cada
+                    ação rumo ao objetivo final.</p>
+            </div>
         </div>
     </main>
     <form name="my-form">
         <div class="formu">
             <h1>Entre em contato</h1>
-        <div class="name">
-            <img class="person" src="assets/person.png" alt="icone de uma pessoa">
-            <label for="nome"></label>
-            <input type="text" id="nome" placeholder="Seu nome">
-        </div>
-        <div class="mail">
-            <img class="at" src="assets/at.png" alt="icone do arroba">
-            <label for="email"></label>
-            <input type="text" id="email" placeholder="Email">
-        </div>
-        <div class="text">
-            <textarea placeholder="Digite sua mensagem aqui..."></textarea>
-        </div>
-        <button>Enviar Mensagem</button>
+            <div class="name">
+                <img class="person" src="assets/person.png" alt="icone de uma pessoa">
+                <label for="nome"></label>
+                <input type="text" id="nome" placeholder="Seu nome">
+            </div>
+            <div class="mail">
+                <img class="at" src="assets/at.png" alt="icone do arroba">
+                <label for="email"></label>
+                <input type="text" id="email" placeholder="Email">
+            </div>
+            <div class="text">
+                <textarea style="resize: none;" placeholder="Digite sua mensagem aqui..."></textarea>
+            </div>
+            <button style="cursor: pointer;">Enviar Mensagem</button>
         </div>
         <div class="pontos">
             <img class="points" src="assets/points.png" alt="pontos">
         </div>
     </form>
     <footer>
-        <h1>© 2023 - Rocketseat Explorer</h1>
+        <h1>© 2024 - Rocketseat Explorer</h1>
     </footer>
 </body>
+
 </html>
